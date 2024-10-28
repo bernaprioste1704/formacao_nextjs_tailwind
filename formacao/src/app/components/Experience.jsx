@@ -2,9 +2,9 @@ import Card from "./Card"
 export default function Experience() {
 
     const data = [
-        {id: 1, data:"kjdflkrakj"},
-        {id: 2, data:"kjdflkrakj"},
-        {id: 3, data:"kjdflkrakj"},
+        {id: 1, data:"NTT Data - Campus Ambassador"},
+        {id: 2, data:"LANDCOBA - Summer Intern"},
+        {id: 3, data:"In-Nova - Projects Department Member"},
         {id: 4, data:"kjdflkrakj"},
         {id: 5, data:"kjdflkrakj"}
     ]
@@ -16,8 +16,8 @@ export default function Experience() {
     }
 
     return (
-        <div className="flex flex-col px-6 sm:px-[10vw] md:px-[12vw]">
-            <h2 className="text-4xl text-start mb-4">Experience</h2>
+        <div className="flex flex-col px-6 sm:px-[10vw] md:px-[12vw] mb-10">
+            <h2 className="text-4xl text-start mb-7">Experience</h2>
             {getCards()}
             {}
         </div>

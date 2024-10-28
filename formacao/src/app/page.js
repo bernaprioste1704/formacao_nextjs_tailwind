@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
@@ -12,9 +12,8 @@ export default function Home() {
       <HeroSection/>  
       <About/>
       <Experience/>
-      <Link href={"https://www.safetyscope.eu"} target="_blank">SafetyScope</Link>
       
-      
+      <Link className="mb-10 text-4xl"href={"https://https://www.linkedin.com/in/bernardo-prioste-057254243/"} target="_blank">My Linkedin</Link>
 
     </div>
   );
